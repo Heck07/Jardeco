@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+  font-family: 'Playfair Display', serif; /* Titres */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #366d3602;
+  }
+  
+  h1, h2, h4 {
+    position: relative;
+    font-family: 'Playfair Display', serif; /* Titres */
+    margin-bottom: 33px;
+    font-size: 36px;
+  }
+
+
+
+  /* Ajout de la barre sous les titres */
+ h2::after, h3::after {
+  content: "";
+  position: absolute;
+  bottom: -10px; /* Décale la barre de 10px sous le titre */
+  left: 0;
+  width: 50px; /* Largeur de la barre */
+  height: 2px; /* Hauteur de la barre */
+  background-color: #9db33e; /* Couleur verte */
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #264e2c
+}
+  section {
+    padding: 2rem;
+  }
+
+  .section-title {
+    margin-top: 0px;
+    color: #214326;
+  }
+  
+  
+  .services .service-card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  
+  .services .service-card:hover {
+    opacity: 0.8;
+  }
+
+  .col1 {
+   color: #264e2c
+  }
+  
+  .col2 {
+    color: #55761a;
+  }
+  .col3 {
+    color: #9db33e;
+  }
+  .col4 {
+    color: #dfe49b
+  }
+  .col5 {
+    color: #f6f7cd
+  }
+
+  .bcol1 {
+    background-color: #264e2c
+   }
+   
+   .bcol2 {
+    background-color: #3b4635de;
+   }
+   .bcol3 {
+    background-color: #9db33e;
+   }
+   .bcol4 {
+    background-color: #dfe49b
+   }
+   .bcol5 {
+     background-color: #f6f7cd
+   }
+
+   /* Bouton Call to Action */
+.cta-button-container {
+  text-align: center;
+  margin: 30px 0;
+  position: relative;
+  top: 105px;
+}
+
+.or {
+    position: relative;
+    top: 12px;
+    left: -5px;
+
+}
+
+.cta-button {
+  background-color: #264E2C;
+  color: white;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.cta-button:hover {
+  background-color: #3b8f3d;
+}
+  
